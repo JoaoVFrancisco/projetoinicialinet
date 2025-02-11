@@ -1,12 +1,25 @@
 import "./App.css";
-import MyComponent from "./componentes/MyComponent";
-import NewComponent from "./componentes/NewComponent";
-import OtherComponent from "./componentes/OtherComponent";
+// Aula 2
+// import ShowEvent from "./componentes/ShowEvent";
+// import TestUseState from "./componentes/TestUseState";
+import UseList from "./componentes/UseList";
+// Aula 1
+// import MyComponent from "./componentes/MyComponent";
+// import NewComponent from "./componentes/NewComponent";
+// import OtherComponent from "./componentes/OtherComponent";
 
 function App() {
   return (
     <>
-      {/* seu compontente deve ser renderizado aqui */}
+    <UseList />
+    {/* 
+    aula 2
+     <ShowEvent />
+    <TestUseState /> 
+    */}
+      {/*
+       Aula 1
+      seu compontente deve ser renderizado aqui
       <NewComponent />
       <h1>Meu titulo</h1>
       <p>
@@ -17,6 +30,7 @@ function App() {
       </p>
       <MyComponent />
       <OtherComponent />
+       */}
     </>
   );
 }
