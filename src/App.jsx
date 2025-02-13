@@ -1,36 +1,20 @@
 import "./App.css";
-// Aula 2
-// import ShowEvent from "./componentes/ShowEvent";
-// import TestUseState from "./componentes/TestUseState";
-import UseList from "./componentes/UseList";
-// Aula 1
-// import MyComponent from "./componentes/MyComponent";
-// import NewComponent from "./componentes/NewComponent";
-// import OtherComponent from "./componentes/OtherComponent";
+import AulaDois from "./componentes/AulaDois";
+import AulaQuatro from "./componentes/AulaQuatro";
+import AulaTres from "./componentes/AulaTres";
+import AulaUm from "./componentes/AulaUm";
+
+
 
 function App() {
   return (
     <>
-    <UseList />
     {/* 
-    aula 2
-     <ShowEvent />
-    <TestUseState /> 
-    */}
-      {/*
-       Aula 1
-      seu compontente deve ser renderizado aqui
-      <NewComponent />
-      <h1>Meu titulo</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In molestiae
-        doloremque cumque natus asperiores exercitationem, dolores, non
-        voluptatibus magnam at velit nihil quos sit sequi quas laudantium ea
-        obcaecati reprehenderit.
-      </p>
-      <MyComponent />
-      <OtherComponent />
-       */}
+    <AulaUm /> 
+    <AulaDois /> 
+    <AulaTres />
+     */}
+    <AulaQuatro />
     </>
   );
 }
